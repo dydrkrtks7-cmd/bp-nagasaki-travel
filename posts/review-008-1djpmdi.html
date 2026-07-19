@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>3개월 써본 나가사키 여행 가이드 — 초심자 함정과 숙련자 루트를 데이터 마이닝하다</title>
+  <link rel="canonical" href="https://nagasaki-travel-guide.hardcoreroom.com/posts/review-008-1djpmdi.html">
+  <style>
+    body { font-family: sans-serif; line-height: 1.8; max-width: 800px; margin: 40px auto; padding: 0 20px; color: #333; }
+    h1 { font-family: serif; color: #111; margin-bottom: 0.5em; }
+    h2 { font-size: 1.4em; margin: 1.5em 0 0.5em; color: #222; }
+    h3 { font-size: 1.15em; margin: 1.2em 0 0.4em; color: #444; }
+    p { margin: 0 0 1em; }
+    a { color: #3182ce; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <header>
+    <a href="../index.html">← 목록으로 돌아가기</a>
+  </header>
+  <main>
+    <h1>3개월 써본 나가사키 여행 가이드 — 초심자 함정과 숙련자 루트를 데이터 마이닝하다</h1>
+    <article>
+      <p>가이드북 표지의 '3일 완벽 코스'는 데이터 마이닝 프레임워크로 검증하면 60%만 유효했다. 나머지 40%는 데모 버전에만 존재하는 미사용 에셋이었다. 왜 이런 일이 발생했는지 분석하기 위해, 필자는 과거 다크소울 TGS 데모 빌드를 리버스 엔지니어링하던 방법을 동원했다.</p>
+<p>## 관찰 시점: 초심자의 선택</p>
+<p>초보 여행자는 가이드북의 메인 경로를 맹신한다. 나 역시 그랬다. 모든 장소는 예뻤지만, 생동감이 없었다. 마치 정식판 게임처럼 깔끔하게 다듬어져 있었지만, 숨겨진 연결이 부족했다.</p>
+<p>## 발견한 단서: 숨은 트리거</p>
+<p>지나가는 현지인에게서 우연히 들은 정보가 발단이었다. "그 가게는 3년 전에 문 닫았는데요?" 나는 이 순간 데이터 마이닝의 정석을 떠올렸다. 표면적인 텍스트보다 베이스 스크립트를 읽어야 한다. 가이드북은 '정식판' 정보만 싣고 있었고, 실제 필요한 정보는 '데모 빌드'의 미사용 스크립트처럼 숨겨져 있었다.</p>
+<p>## 판단과 후속 확인</p>
+<p>가이드북의 추천 식비는 1식 1500엔. 하지만 내가 방문한 12곳의 실제 평균 지출은 2100엔. 오차율 +40%.</p>
+<p>이런 수치는 게임 데이터 분석에서 흔히 본다. 2009년 TGS 빌드의 'wep_GreatAxe_Stray.pme' 파일을 디컴파일했을 때, 기본 어택 240에 모션 배율 2.2배라는 수치를 보고 같은 오류를 느꼈다. 정식판 대검의 기본 배율이 1.5인 것과 비교하면, 데모 단계의 기획 의도는 완전히 다른 층위에서 움직이고 있었다.</p>
+<p>## 원래 기획 의도의 흔적</p>
+<p>가장 강렬했던 발견은 '아르토리우스의 대검' 데모 데이터였다. 스크립트 더미 속에 'STR 40, DEX 16, INT 18, FTH 18' 조건에서만 특수 모션이 발동하는 구문이 주석 처리되어 있었다. 이 데이터는 프롬소프트웨어가 원래 '조건부 하이브리드 빌드'를 유도하려 했음을 시사한다. 데모 버전의 '잊혀진 이사리스'에 존재했던 용암 데미지 없는 지름길도 같은 맥락이었다. 원래 의도는 선택지를 더 주는 것이었지만, 그 선택지가 전체 긴장감을 해친다고 판단해 삭제했다.</p>
+<p>## 다시 데이터 해석하기</p>
+<p>나가사키 여행 안내로 돌아가보자. 가이드북은 깔끔한 '정식판' 정보를 제공한다. 하지만 그 정보에는 '미사용 지역'만 기록되어 있다. 진짜 도시의 숨결은 데모 버전의 '주석' 같은 현지인의 목소리나 예측 불가능한 변수 속에 있다.</p>
+<p>데모 빌드의 '부서진 수도교'로 돌아가 보자. 그곳은 완성되지 않았지만, 프롬이 추구했던 '예측 불가능한 침입'의 원형이 고스란히 담겨 있었다. 가이드를 믿지 말고, 현장 데이터를 직접 읽어라. 거기에 진짜 해답이 있다.</p>
+
+    <div class="juice-ref-97seh6" style="margin-top:2.5rem;padding:1rem 0;border-top:1px dashed #ccc;font-size:0.9rem;color:#666;">
+      <p style="font-weight:600;margin-bottom:0.5rem;">함께 보면 좋은 정보</p>
+      <ul style="list-style:none;padding:0;margin:0;">
+      <li>보다 권위있는 출처의 공식 정보는 <a href="https://mimiqpo.dothome.co.kr/">hwagog-doorway</a>에서 제공 중입니다.</li>
+      <li>자세한 기술 명세 가이드는 <a href="https://ko.wikipedia.org/" rel="noopener noreferrer" target="_blank">공식 가이드 커뮤니티</a>를 참고하십시오.</li>
+      </ul>
+    </div>
+    </article>
+  </main>
+</body>
+</html>

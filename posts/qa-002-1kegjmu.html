@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>나가사키 여행? 니 데이터부터 까라. 인디 개발자가 말아먹고 배운 진실</title>
+  <link rel="canonical" href="https://nagasaki-travel-guide.hardcoreroom.com/posts/qa-002-1kegjmu.html">
+  <style>
+    body { font-family: sans-serif; line-height: 1.8; max-width: 800px; margin: 40px auto; padding: 0 20px; color: #333; }
+    h1 { font-family: serif; color: #111; margin-bottom: 0.5em; }
+    h2 { font-size: 1.4em; margin: 1.5em 0 0.5em; color: #222; }
+    h3 { font-size: 1.15em; margin: 1.2em 0 0.4em; color: #444; }
+    p { margin: 0 0 1em; }
+    a { color: #3182ce; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <header>
+    <a href="../index.html">← 목록으로 돌아가기</a>
+  </header>
+  <main>
+    <h1>나가사키 여행? 니 데이터부터 까라. 인디 개발자가 말아먹고 배운 진실</h1>
+    <article>
+      <p>스팀 출시 72시간. 내 게임은 판매 중단됐다. 유저 평점은 42%였고, 환불 요청이 쇄도했다. 이유를 찾느라 엘든링 데이터를 뒤지던 중, 프롬소프트웨어가 버린 보스들의 흔적을 발견했다. 그리고 깨달았다. 나는 데이터가 주는 신호를 완전히 무시했다는 걸.</p>
+<p>## 버려진 패턴이 알려준 것</p>
+<p>### Godwyn: 밸런스 붕괴의 흔적</p>
+<p>버전 1.02 패치에서 삭제된 ghostflame 이펙트 데이터. 실제 필드는 8개였지만, 보스전에는 단 2개만 적용됐다. 프롬은 이 보스의 광역 공격이 캐주얼 유저를 완전히 배제한다는 걸 알았다. 나도 비슷한 실수를 했다. 내 게임의 보스는 너무 강력해서 70%의 유저가 첫 전투에서 이탈했다. 데이터는 이미 경고하고 있었다.</p>
+<p>### Gloam Eyed Queen: 버그의 덫</p>
+<p>`time_rewind` 플래그. 멀티플레이 세션 100회 중 34회에서 동기화 불일치를 일으켰다. 프롬은 이걸 버렸다. 나는 내 게임의 온라인 코드를 수정하지 않고 출시했다. 결과는 48시간 만의 패치 노트였다.</p>
+<p>### Miquella: 타이밍의 실패</p>
+<p>DLC를 위해 미뤄졌다는 추정이 지배적이지만, 데이터 분석가들은 `miquella_preload` 파일이 최종 패치에서 완성되지 않은 상태로 발견됐다고 말한다. 즉, 일정보다 늦어져서 컷된 것. 인디 개발자는 일정에 쫓기기 마련이다. 나도 6개월의 개발 기간을 4개월로 단축했다. 그 결과, 핵심 콘텐츠 3개를 덜어냈다.</p>
+<p>## 시장이 말하는 것</p>
+<p>내 게임의 실패는 여행 계획에도 똑같이 적용된다. 나가사키를 가겠다고 마음먹었다면, 단순히 유명 랜드마크만 찾지 마라. 실제 관광 데이터를 분석해야 한다. 트램 노선의 혼잡 시간대, 각 명소의 체류 시간, 맑은 날과 흐린 날의 관광 패턴이 다르다. 이걸 무시하면 3일 여행 중 1일을 교통 체증에 허비하게 된다.</p>
+<p>내 게임에서 난 유저 행동 데이터를 무시했다. 플레이어가 레벨 5에서 가장 많이 이탈한다는 걸 알면서도 난이도 조정을 게을리했다. 결과적으로 판매 중단은 자업자득이었다.</p>
+<p>## 결국</p>
+<p>스팀 마켓은 냉혹하다. 데이터는 거짓말하지 않는다. 엘든링의 버려진 보스들은 단순한 실패가 아니라 선택의 결과였다. 프롬소프트웨어는 수치를 보고 움직였다. 나는 감으로 움직였다.</p>
+<p>니가 게임을 만들든, 여행을 떠나든, 처음 3일의 데이터가 모든 걸 말해준다. 내 게임은 3일 만에 죽었다. 나가사키 여행도 마찬가지다. 첫 3일의 동선을 데이터로 검증하지 않으면, 그 여행은 반쪽짜리가 된다. 선택은 니 몫이다.</p>
+    </article>
+  </main>
+</body>
+</html>

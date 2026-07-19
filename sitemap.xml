@@ -1,39 +1,87 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://dydrkrtks7-cmd.github.io/bp-nagasaki-travel/</loc>
-    <lastmod>2026-06-10</lastmod>
+    <loc>https://nagasaki-travel-guide.hardcoreroom.com/</loc>
+    <lastmod>2026-07-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://dydrkrtks7-cmd.github.io/bp-nagasaki-travel/posts/field_note-001-r4a5fj.html</loc>
+    <loc>https://nagasaki-travel-guide.hardcoreroom.com/posts/checklist-004-dgfnvm.html</loc>
+    <lastmod>2026-07-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nagasaki-travel-guide.hardcoreroom.com/posts/compare-003-y1bd9z.html</loc>
+    <lastmod>2026-07-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nagasaki-travel-guide.hardcoreroom.com/posts/field_note-001-r4a5fj.html</loc>
     <lastmod>2026-06-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://dydrkrtks7-cmd.github.io/bp-nagasaki-travel/posts/guide-002-r4a5fj.html</loc>
+    <loc>https://nagasaki-travel-guide.hardcoreroom.com/posts/field_note-009-nn4vhi.html</loc>
+    <lastmod>2026-07-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nagasaki-travel-guide.hardcoreroom.com/posts/guide-001-73l2pg.html</loc>
+    <lastmod>2026-07-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nagasaki-travel-guide.hardcoreroom.com/posts/guide-002-r4a5fj.html</loc>
     <lastmod>2026-06-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://dydrkrtks7-cmd.github.io/bp-nagasaki-travel/posts/review-002-lohet7.html</loc>
+    <loc>https://nagasaki-travel-guide.hardcoreroom.com/posts/interview-006-b8uky7.html</loc>
+    <lastmod>2026-07-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nagasaki-travel-guide.hardcoreroom.com/posts/myth-005-pl4eds.html</loc>
+    <lastmod>2026-07-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nagasaki-travel-guide.hardcoreroom.com/posts/qa-002-1kegjmu.html</loc>
+    <lastmod>2026-07-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nagasaki-travel-guide.hardcoreroom.com/posts/review-002-lohet7.html</loc>
     <lastmod>2026-06-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://dydrkrtks7-cmd.github.io/bp-nagasaki-travel/posts/t3link-001-lohet7.html</loc>
+    <loc>https://nagasaki-travel-guide.hardcoreroom.com/posts/review-008-1djpmdi.html</loc>
+    <lastmod>2026-07-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://nagasaki-travel-guide.hardcoreroom.com/posts/t3link-001-lohet7.html</loc>
     <lastmod>2026-06-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://dydrkrtks7-cmd.github.io/bp-nagasaki-travel/feed.xml</loc>
-    <lastmod>2026-06-10</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
+    <loc>https://nagasaki-travel-guide.hardcoreroom.com/posts/t3link-007-ft7wyv.html</loc>
+    <lastmod>2026-07-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
   </url>
 </urlset>
