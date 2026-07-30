@@ -1,5 +1,5 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://sangam-massage-note.shirtslab-mapo-pro.xyz/sitemap.xml
-Sitemap: https://sangam-massage-note.shirtslab-mapo-pro.xyz/sitemap-pages.xml
+Sitemap: https://nagasaki-travel-guide.hardcoreroom.com/sitemap.xml
+Sitemap: https://nagasaki-travel-guide.hardcoreroom.com/sitemap-pages.xml
